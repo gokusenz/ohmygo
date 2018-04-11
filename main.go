@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println("My favorite laguage is", static.Language)
+	fmt.Println("My favorite laguage is", variable.Language)
 }

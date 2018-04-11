@@ -1,3 +1,3 @@
-package static
+package variable
 
 var Language = "golang"
