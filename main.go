@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// http://keshavabharadwaj.com/2016/03/31/closure_golang/
 func counter(state int) (func() int, func()) {
 	get := func() int {
 		return state
