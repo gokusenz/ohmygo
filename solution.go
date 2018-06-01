@@ -1,4 +1,4 @@
-package oh_my_go
+package ohmygo
 
 func factorial(n int) int {
 	return 6
