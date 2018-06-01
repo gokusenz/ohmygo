@@ -1,4 +1,4 @@
-package oh_my_go
+package ohmygo
 
 type mammal interface {
 	canWalk() bool
