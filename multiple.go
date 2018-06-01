@@ -1,4 +1,4 @@
-package oh_my_go
+package ohmygo
 
 func forward(a, b int) (int, int) {
 	return 0, 0
