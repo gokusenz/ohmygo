@@ -1,4 +1,4 @@
-package oh_my_go
+package ohmygo
 
 func fizzbuzz(n int) string {
 	return "1"
