@@ -30,7 +30,7 @@ func TestCountChar2(t *testing.T) {
 		"over":   4,
 		"the":    3,
 		"lazy":   4,
-		"dog.":   3,
+		"dog":    3,
 	}
 
 	if !reflect.DeepEqual(m, expected) {
