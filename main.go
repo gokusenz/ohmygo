@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/pallat/oh_my_go/static"
+	"github.com/pallat/ohmygo/static"
 )
 
 func main() {
