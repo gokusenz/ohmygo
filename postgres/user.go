@@ -10,6 +10,7 @@ import (
 // UserService represents a PostgreSQL implementation of myapp.UserService.
 type UserService struct {
 	DB *sql.DB
+	myapp.UserService
 }
 
 func Open(s string) (*sql.DB, error) {

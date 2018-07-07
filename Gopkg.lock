@@ -10,9 +10,25 @@
   ]
   revision = "90697d60dd844d5ef6ff15135d0203f65d2f53b8"
 
+[[projects]]
+  branch = "layout"
+  name = "github.com/pallat/ohmygo"
+  packages = [
+    "http",
+    "myapp",
+    "postgres"
+  ]
+  revision = "fa5f4327dbf2cbd5b70f00c08f2b46dfe397d5ee"
+
+[[projects]]
+  name = "gopkg.in/DATA-DOG/go-sqlmock.v1"
+  packages = ["."]
+  revision = "d76b18b42f285b792bf985118980ce9eacea9d10"
+  version = "v1.3.0"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f9a9f07200aebaeb4840e863e9419104ba612b49f2f5e5a91dffde8b66fcaa8c"
+  inputs-digest = "0da4ac03a040673396e58b04347b815802014847c864b8bfe4701fd2750f4965"
   solver-name = "gps-cdcl"
   solver-version = 1
